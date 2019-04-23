@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "build/index.js",
+    "postinstall": "tsc",
+    "build:watch": "tsc --watch",
+    "generate": "graphql-codegen --config codegen.yml"
+  },
+  "dependencies": {
+    "apollo-flash": "^1.0.0-rc1",
+    "apollo-server-express": "^2.4.8",
+    "babel-runtime": "^6.26.0",
+    "express": "^4.16.4",
+    "graphql": "^14.2.1",
+    "mongodb": "^3.2.3"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.1.1",
+    "@graphql-codegen/typescript": "1.1.1",
+    "@graphql-codegen/typescript-mongodb": "1.1.1",
+    "@graphql-codegen/typescript-resolvers": "1.1.1",
+    "@types/express": "^4.16.1",
+    "@types/graphql": "^14.2.0",
+    "@types/jsonwebtoken": "^8.3.2",
+    "@types/mongodb": "^3.1.25",
+    "@types/node": "^10.5.4",
+    "prettier": "1.16.4",
+    "tslint": "^5.13.1",
+    "typescript": "^3.4.4"
+  }
+}

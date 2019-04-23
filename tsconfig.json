@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "outDir": "./build",
+    "sourceMap": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "lib": ["esnext"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "preserveConstEnums": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
